@@ -1,0 +1,19 @@
+{
+  "name": "dh-fullstack-santander",
+  "version": "1.0.0",
+  "description": "Códigos de estudo do curso Full Stack NodeJS da Digital House Brasil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renatokano/dh-fullstack-santander.git"
+  },
+  "author": "Renato Kano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renatokano/dh-fullstack-santander/issues"
+  },
+  "homepage": "https://github.com/renatokano/dh-fullstack-santander#readme"
+}
