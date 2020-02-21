@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/renatokano/dh-fullstack-santander/issues"
   },
-  "homepage": "https://github.com/renatokano/dh-fullstack-santander#readme"
+  "homepage": "https://github.com/renatokano/dh-fullstack-santander#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
