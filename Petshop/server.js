@@ -25,6 +25,11 @@ http.createServer((req,res)=>{
             res.write("Erro ao adicionar pet");
         }
     }
+    if (urlCompleta.pathname == "/pets"){
+        let listaDePets = petshop.listarPets();
+        res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'});
+        res.write(listaDePets.join(", "));
+    }
     res.end();
     //console.log("Estou em um servidor!");
 }).listen(3000, 'localhost');
