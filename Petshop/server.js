@@ -4,7 +4,7 @@ const petshop = require("./petshop");
 
 http.createServer((req,res)=>{
 
-    let urlCompleta = url.parse(req.url);
+    let urlCompleta = url.parse(req.url,true);
     console.log(urlCompleta);
 
     if(urlCompleta.pathname == "/"){
@@ -16,7 +16,7 @@ http.createServer((req,res)=>{
         res.write("<h1>Você está na home do sistema!</h1>");
     }
     if (urlCompleta.pathname == "/pet/adicionar"){
-        if(petshop.adicionarPet(urlCompleta.query.nome)){
+        if(urlCompleta.query.nome && petshop.adicionarPet(urlCompleta.query.nome)){
             res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'});
             res.write("Pet adicionado com sucesso");
         }

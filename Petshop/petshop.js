@@ -1,10 +1,11 @@
 let listaDePets = [];
 
 let adicionarPet = (nome) => {
-    return listaDePets.push(nome);
+    let result = listaDePets.push(nome);
+    console.log(listaDePets);
+    return result;
 }
 
 let listarPets = () => listaDePets;
-console.log(listaDePets);
 
 module.exports = {adicionarPet, listarPets};
