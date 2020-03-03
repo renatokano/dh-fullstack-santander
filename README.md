@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/renatokano/dh-fullstack-santander)
+
 # Bootcamp FullStack NodeJS by DigitalHouse / Santander
 
 ## Aulas do Curso
