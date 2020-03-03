@@ -6,7 +6,8 @@
 
   - Aula 08: Módulo Express, Ecossistema Express, Rotas, Rotas Parametrizadas, Sistema de Roteamento, Implementação do
   padrão de arquitetura MVC, Express Generator.
-  
+
+  - Petshop: Desenvolvimento *incremental* de uma aplicação para Petshop em sala de aula.
   
 ## Estudos Complementares
   
