@@ -17,7 +17,7 @@ http.createServer((req,res)=>{
     }
     if (urlCompleta.pathname == "/pet/adicionar"){
         if(urlCompleta.query.nome && petshop.adicionarPet(urlCompleta.query.nome)){
-            res.writeHead(200, {'Content-Type': 'text/html; charset=utf-8'});
+            res.writeHead(201, {'Content-Type': 'text/html; charset=utf-8'});
             res.write("Pet adicionado com sucesso");
         }
         else {
